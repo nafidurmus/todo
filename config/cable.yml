@@ -7,4 +7,7 @@ test:
 production:
   adapter: redis
   url: redis://localhost:6379/1
+<<<<<<< HEAD
   channel_prefix: todo_production
+=======
+>>>>>>> fc1fb727f8c703bbe912d4535ecad629812cf40f

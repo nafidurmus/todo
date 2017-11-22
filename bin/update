@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/usr/bin/env ruby
+=======
+#!/usr/bin/env ruby.exe
+>>>>>>> fc1fb727f8c703bbe912d4535ecad629812cf40f
 require 'pathname'
 require 'fileutils'
 include FileUtils

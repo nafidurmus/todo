@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
 <head>
   <title>Todo</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -10,9 +11,26 @@
 </head>
 <body>
 
+=======
+  <head>
+    <title>Todo</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+ <body>
+>>>>>>> fc1fb727f8c703bbe912d4535ecad629812cf40f
 <div class="container">
 	<%= yield %>
 </div>
 
+<<<<<<< HEAD
 </body>
+=======
+  </body>
+>>>>>>> fc1fb727f8c703bbe912d4535ecad629812cf40f
 </html>

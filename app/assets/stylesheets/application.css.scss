@@ -26,11 +26,19 @@ html {
 
 body {
  	height: 100%;
+<<<<<<< HEAD
  	background: #FEAC5E;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
+=======
+  background: -webkit-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
+  background:    -moz-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
+  background:     -ms-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
+  background:      -o-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
+  background:         linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
+>>>>>>> fc1fb727f8c703bbe912d4535ecad629812cf40f
   font-family: 'Lato', sans-serif;
 }
 
@@ -212,3 +220,7 @@ input[type="submit"] {
 	}
 }
 ::-webkit-input-placeholder { color: $dark; }
+<<<<<<< HEAD
+=======
+
+>>>>>>> fc1fb727f8c703bbe912d4535ecad629812cf40f

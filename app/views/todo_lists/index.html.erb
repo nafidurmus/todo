@@ -1,4 +1,5 @@
 <% @todo_lists.each do |todo_list| %>
+<<<<<<< HEAD
   <div class="index_row clearfix">
     <h2 class="todo_list_title"><%= link_to todo_list.title, todo_list %></h2>
     <p class="todo_list_sub_title"><%= todo_list.description %></p>
@@ -8,3 +9,15 @@
 <div class="links">
   <%= link_to "New Todo List", new_todo_list_path %>
 </div>
+=======
+ <div class="index_row clearfix">
+ <h2 class="todo_list_title"><%= link_to todo_list.title, todo_list %></h2>
+   <p class="todo_list_sub_title"><%= todo_list.description %> </p>
+ </div>
+ <% end  %>
+
+ <div class="links">
+   <%= link_to "New Todo List", new_todo_list_path %>
+    </div>
+
+>>>>>>> fc1fb727f8c703bbe912d4535ecad629812cf40f

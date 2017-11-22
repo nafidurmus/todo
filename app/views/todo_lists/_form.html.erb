@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <%= form_for(@todo_list) do |f| %>
   <% if @todo_list.errors.any? %>
     <div id="error_explanation">
@@ -5,6 +6,15 @@
 
       <ul>
       <% @todo_list.errors.full_messages.each do |message| %>
+=======
+<%= form_for(todo_list) do |f| %>
+  <% if todo_list.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(todo_list.errors.count, "error") %> prohibited this todo_list from being saved:</h2>
+
+      <ul>
+      <% todo_list.errors.full_messages.each do |message| %>
+>>>>>>> fc1fb727f8c703bbe912d4535ecad629812cf40f
         <li><%= message %></li>
       <% end %>
       </ul>
@@ -12,6 +22,7 @@
   <% end %>
 
   <div class="field">
+<<<<<<< HEAD
     <%= f.label :title %><br>
     <%= f.text_field :title %>
   </div>
@@ -19,6 +30,17 @@
     <%= f.label :description %><br>
     <%= f.text_area :description %>
   </div>
+=======
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= f.label :description %>
+    <%= f.text_area :description %>
+  </div>
+
+>>>>>>> fc1fb727f8c703bbe912d4535ecad629812cf40f
   <div class="actions">
     <%= f.submit %>
   </div>

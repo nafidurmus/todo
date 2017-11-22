@@ -18,7 +18,11 @@ Rails.application.configure do
 
     config.cache_store = :memory_store
     config.public_file_server.headers = {
+<<<<<<< HEAD
       'Cache-Control' => "public, max-age=#{2.days.seconds.to_i}"
+=======
+      'Cache-Control' => 'public, max-age=172800'
+>>>>>>> fc1fb727f8c703bbe912d4535ecad629812cf40f
     }
   else
     config.action_controller.perform_caching = false
@@ -50,5 +54,9 @@ Rails.application.configure do
 
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
+<<<<<<< HEAD
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+=======
+  # config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+>>>>>>> fc1fb727f8c703bbe912d4535ecad629812cf40f
 end
